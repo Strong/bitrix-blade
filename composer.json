@@ -1,5 +1,5 @@
 {
-  "name": "arrilot/bitrix-blade",
+  "name": "strong/bitrix-blade",
   "license": "MIT",
   "keywords": [
     "bitrix",
@@ -11,13 +11,15 @@
       "email": "nekrasov.ilya90@gmail.com"
     }
   ],
-  "homepage": "https://github.com/Arrilot/bitrix-blade",
+  "homepage": "https://github.com/Strong/bitrix-blade",
   "require": {
-    "php": ">=5.4.0",
-    "illuminate/container": "5.*",
-    "illuminate/view": "5.*",
-    "illuminate/events": "5.*",
-    "arrilot/bitrix-hermitage": "^1"
+    "php": ">=8.1",
+    "illuminate/container": "10.*",
+    "illuminate/view": "10.*",
+    "illuminate/events": "10.*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
   },
   "autoload": {
     "psr-4": {
