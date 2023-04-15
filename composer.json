@@ -14,9 +14,9 @@
   "homepage": "https://github.com/Strong/bitrix-blade",
   "require": {
     "php": ">=8.1",
-    "illuminate/container": "10.*",
-    "illuminate/view": "10.*",
-    "illuminate/events": "10.*"
+    "illuminate/container": "8.*",
+    "illuminate/view": "8.*",
+    "illuminate/events": "8.*"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest"
